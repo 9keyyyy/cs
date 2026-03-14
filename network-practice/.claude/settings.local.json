@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm /Users/user/home/oss-issue-to-jira/.claude/rules/commit-convention.md 2>/dev/null; rmdir /Users/user/home/oss-issue-to-jira/.claude/rules 2>/dev/null; echo \"done\")",
+      "Bash(mkdir -p /Users/user/home/oss-issue-to-jira/.claude/skills/commit && mv /Users/user/home/oss-issue-to-jira/.claude/skills/commit.md /Users/user/home/oss-issue-to-jira/.claude/skills/commit/SKILL.md)",
+      "Bash(git stash:*)",
+      "Bash(git pull:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git rm:*)",
+      "Bash(which gh:*)",
+      "Bash(gh auth:*)",
+      "Bash(git push:*)",
+      "Bash(gh pr:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(which lefthook:*)",
+      "Bash(brew install:*)",
+      "Bash(lefthook install:*)",
+      "Bash(git tag:*)",
+      "Bash(git restore:*)",
+      "Bash(git reset:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
